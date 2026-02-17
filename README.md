@@ -2,8 +2,8 @@
 **Cross Node Telemetry for CPU Efficient Congestion Monitoring**
 
 ### Paper Information
-- **Author(s):** Kalesha Khan Pattan
-- **Published In:** International Journal of Leading Research Publication (IJLRP)
+- **Author(s):** Arunkumar Sambandam
+- **Published In:** *********************************************************International Journal of Leading Research Publication (IJLRP)
 - **Publication Date:** Aug 2021
 - **ISSN:** E-ISSN: 2582-8010
 - **DOI:**
