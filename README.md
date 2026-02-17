@@ -13,34 +13,33 @@
 This paper addresses the problem of excessive CPU utilization in network congestion monitoring within distributed and cloud infrastructures. Modern systems collect telemetry such as bandwidth usage, packet loss, queue occupancy, and delay statistics, yet conventional frameworks analyze these metrics independently at each node. This repetitive data collection and duplicate analysis create high computational overhead, frequent synchronization, and delayed identification of bottlenecks. As the number of nodes grows, telemetry streams expand proportionally, triggering repeated diagnostics and unnecessary reprocessing that further amplify processor load. Consequently, centralized aggregation and monitoring costs reduce throughput, limit scalability, and compromise service stability across distributed environments.
 
 ### Key Contributions
-- **AI-Driven Adaptive Scaling Framework:**
-  Proposed an intelligent scaling architecture that overcomes the limitations of static, rule-based autoscaling by leveraging machine learning and reinforcement learning for proactive workload management.
+- **Cross‑Node Telemetry Correlation:**  
+Introduced a monitoring approach that correlates telemetry across nodes, reducing redundant computation and improving CPU efficiency compared to conventional independent node analysis.
 
-- **Predictive Analytics–Based Workload Forecasting:**
-  Integrated predictive models to anticipate workload fluctuations and system load variations, enabling scaling decisions to be executed before performance degradation occurs.
+- **Processor‑Efficient Monitoring Design:**  
+Developed mechanisms that minimize duplicate diagnostics and synchronization overhead, lowering CPU utilization while maintaining visibility into congestion events across distributed systems.
 
-- **Reinforcement Learning–Enabled Scaling Decisions:**
-  Applied reinforcement learning to dynamically optimize scale-up and scale-down actions based on real-time feedback from response time, latency, and resource utilization metrics.
- 
-- **End-to-End Design, Implementation, and Validation:**
-  Designed, implemented, and experimentally validated a complete adaptive scaling system, demonstrating consistent response time improvements of 35–44% across diverse workloads and cluster sizes.
+- **Simulation and Validation:** 
+Implemented a Go‑based simulation to model conventional monitoring overhead, validating how repeated local analysis and central aggregation lead to high processor load.
+
+- **Scalability Enhancement:**  
+Demonstrated that coordinated telemetry analysis prevents linear growth of CPU consumption with cluster size, enabling scalable monitoring in cloud and distributed infrastructures.
 
 ### Relevance & Real-World Impact
-- **Significant Reduction in Response Time:**
-  Achieved a consistent 35–44% reduction in response time compared to traditional rule-based scaling, directly improving end-user experience and service responsiveness.
- 
-- **Proactive and Stable Scaling Behavior:**
-Eliminated delayed reactions and performance oscillations by shifting from reactive threshold-based scaling to predictive, learning-driven resource adaptation.
+- **Reduced CPU Utilization:**
+Achieved significant processor efficiency by eliminating redundant monitoring tasks, freeing resources for application workloads and improving responsiveness.
 
-- **Efficient Resource Utilization and Cost Reduction:**
-    Minimized over-provisioning and idle resources, leading to lower operational costs and improved energy efficiency in distributed cloud environments.
+- **Improved Latency and Throughput:**  
+Lower monitoring overhead directly reduces latency and increases throughput, enhancing service stability in distributed environments.
 
-  **Scalable Deployment Across Distributed Clusters:**
-  Demonstrated effective scaling across cluster sizes ranging from small to large deployments, maintaining stable performance under static, database-intensive, and mixed computational workloads.
- 
-- **Production and Research Applicability:**
-    Designed the framework for compatibility with modern cloud orchestration platforms and provided a complete reference model—including architecture, algorithms, simulations, and evaluation—suitable for industry deployment, academic research, and advanced teaching in cloud computing and AI-driven systems.
- 
+- **Scalable Cloud Deployment:**  
+Framework supports large clusters without proportional CPU growth, addressing scalability challenges in modern cloud infrastructures.
+
+- **Operational Cost and Energy Savings:**  
+Efficient monitoring reduces unnecessary computation, lowering energy consumption and operational costs in data centers.
+
+- **Practical Applicability:**
+Provides a reference model for industry and research, offering a processor‑efficient monitoring design suitable for production systems and academic exploration.
  
 ### Experimental Results (Summary)
 
