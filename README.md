@@ -43,25 +43,25 @@ Provides a reference model for industry and research, offering a processor‑eff
  
 ### Experimental Results (Summary)
 
-  | Nodes | Baseline (ms) | AI-Optimized (ms) | Improvment (%)  |
-  |-------|---------------| ------------------| ----------------|
-  | 3     |  410          | 260               | 36.59           |
-  | 5     |  375          | 225               | 40.00           |
-  | 7     |  340          | 195               | 42.65           |
-  | 9     |  315          | 175               | 44.44           |
-  | 11    |  295          | 165               | 44.07           |
+  | Nodes | Local Telemetry CPU | Telemetry corelation CPU | Improvment (%)  |
+  |-------|---------------------| -------------------------| ----------------|
+  | 3     |  72                 | 54                       | 25.0           |
+  | 5     |  70                 | 50                       | 28.6           |
+  | 7     |  68                 | 47                       | 30.9           |
+  | 9     |  67                 | 45                       | 32.8           |
+  | 11    |  66                 | 43                       | 34.8           |
 
 ### Citation
 Cross Node Telemetry for CPU Efficient Congestion Monitoring
-* Kalesha Khan Pattan
+* Arunkumar Sambandam
 * International Journal of Leading Research Publication 
-* ISSN E-ISSN: 2582-8010
+* *****ISSN E-ISSN: 2582-8010
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-https://www.ijlrp.com/ \
+**************https://www.ijlrp.com/ \
 **Author Contact** \
-**LinkedIn**: https://www.linkedin.com/**** | **Email**: pattankalesha520@gmail.com
+**LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b | **Email**: arunkumar.sambandam@yahoo.com
 
 
 
