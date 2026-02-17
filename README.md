@@ -58,7 +58,7 @@ Eliminated delayed reactions and performance oscillations by shifting from react
   | 11    |  295          | 165               | 44.07           |
 
 ### Citation
-AI-DRIVEN SCALING STRATEGIES FOR ADAPTIVE WORKLOAD MANAGEMENT IN DISTRIBUTED CLOUD SYSTEMS
+Cross Node Telemetry for CPU Efficient Congestion Monitoring
 * Kalesha Khan Pattan
 * International Journal of Leading Research Publication 
 * ISSN E-ISSN: 2582-8010
