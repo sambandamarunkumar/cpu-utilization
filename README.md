@@ -10,12 +10,7 @@
 - **Impact Factor:** 9.56
 
 ### Abstract
-The paper proposes an AI-driven adaptive scaling framework to overcome the limitations of reactive, rule-based autoscaling in distributed cloud systems by predicting workload fluctuations
-and proactively adjusting resources in real time. By integrating predictive analytics with reinforcement learning, the framework continuously monitors system metrics such as CPU utilization, 
-latency, and workload intensity to make intelligent scaling decisions before performance degradation occurs. Extensive experiments conducted on clustered environments with varying sizes and workload 
-types demonstrate consistent response time improvements of approximately 35–44% compared to traditional scaling approaches. The results confirm that predictive, learning-based scaling significantly 
-reduces queuing delays, avoids over-provisioning, and improves energy efficiency. Overall, the study establishes AI-driven adaptive scaling as an effective and sustainable solution for responsive 
-and efficient workload management in modern distributed cloud systems
+This paper addresses the problem of excessive CPU utilization in network congestion monitoring within distributed and cloud infrastructures. Modern systems collect telemetry such as bandwidth usage, packet loss, queue occupancy, and delay statistics, yet conventional frameworks analyze these metrics independently at each node. This repetitive data collection and duplicate analysis create high computational overhead, frequent synchronization, and delayed identification of bottlenecks. As the number of nodes grows, telemetry streams expand proportionally, triggering repeated diagnostics and unnecessary reprocessing that further amplify processor load. Consequently, centralized aggregation and monitoring costs reduce throughput, limit scalability, and compromise service stability across distributed environments.
 
 ### Key Contributions
 - **AI-Driven Adaptive Scaling Framework:**
