@@ -3,8 +3,8 @@
 
 ### Paper Information
 - **Author(s):** Arunkumar Sambandam
-- **Published In:** *********************************************************International Journal of Leading Research Publication (IJLRP)
-- **Publication Date:** Aug 2021
+- **Published In:** nternational Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences (IJIRMPS)
+- **Publication Date:** Jan 6, 2023
 - **ISSN:** E-ISSN: 2582-8010
 - **DOI:**
 - **Impact Factor:** 9.56
@@ -59,7 +59,7 @@ Cross Node Telemetry for CPU Efficient Congestion Monitoring
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-**************https://www.ijlrp.com/ \
+[**************https://www.ijlrp.com/](https://www.ijirmps.org/research-paper.php?id=232943) \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b | **Email**: arunkumar.sambandam@yahoo.com
 
